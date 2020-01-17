@@ -1,4 +1,6 @@
 # OpenCV 💓 C++
+<img src="https://raw.githubusercontent.com/wiki/opencv/opencv/images/OpenCV_Logo_with_text.png" width="128">
+
 Hoşgeldiniz.
 
 Bu repoda C++ diliyle geliştirilmiş OpenCV uygulamaları basit örnekler şeklinde sunulmaktadır.
