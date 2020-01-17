@@ -6,9 +6,11 @@ Hoşgeldiniz.
 Bu repoda C++ diliyle geliştirilmiş OpenCV uygulamaları basit örnekler şeklinde sunulmaktadır.
 Her türlü hata bildirimi ve istek için [Issue](https://github.com/eminfedar/opencv-ornekler/issues), yeni örnekler eklemek ve katkıda bulunmak için [Pull Request](https://github.com/eminfedar/opencv-ornekler/pulls) açabilirsiniz.
 
+*(Not: Uygulamalar **Pardus, Ubuntu** gibi **GNU/Linux** sistemlerde  ile derlenmek üzere hazırlanmıştır.)*
 
 ## Temel:
-- OpenCV'nin temel mühim bilgiler
+- OpenCV kütüphanesinin genel kullanımı
+- OpenCV kütüphanesinin derleyiciye eklenmesi (dinamik kütüphane bağlantısı)
 
 ## Dosya işlemleri:
 - OpenCV ile dosyadan fotoğraf okuma
@@ -29,4 +31,4 @@ Her türlü hata bildirimi ve istek için [Issue](https://github.com/eminfedar/o
 - OpenCV ile resmin üzerine başka bir resim ekleme
 - OpenCV ile resmi renk kanallarına ayırma
 - OpenCV ile resmi büyültme / küçütlme
-- OpenCV ile resmi 
+- OpenCV ile resmi istenen açıyla döndürme
