@@ -1,7 +1,7 @@
 # OpenCV 💓 C++
-<img src="https://raw.githubusercontent.com/wiki/opencv/opencv/images/OpenCV_Logo_with_text.png" width="128">
-
 Hoşgeldiniz.
+
+<img src="https://raw.githubusercontent.com/wiki/opencv/opencv/images/OpenCV_Logo_with_text.png" width="128">
 
 Bu repoda C++ diliyle geliştirilmiş OpenCV uygulamaları basit örnekler şeklinde sunulmaktadır.
 Her türlü hata bildirimi ve istek için [Issue](https://github.com/eminfedar/opencv-ornekler/issues), yeni örnekler eklemek ve katkıda bulunmak için [Pull Request](https://github.com/eminfedar/opencv-ornekler/pulls) açabilirsiniz.
