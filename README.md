@@ -14,7 +14,7 @@ Her türlü hata bildirimi ve istek için [Issue](https://github.com/eminfedar/o
 - OpenCV kütüphanesinin projeye eklenmesi (dinamik kütüphane bağlantısı)
 - Örnek boş proje
 
-## [/ Dosya işlemleri:](#)
+## [/ Dosya işlemleri:](https://github.com/eminfedar/opencv-ornekler/tree/master/Dosya%20%C4%B0%C5%9Flemleri)
 - OpenCV ile dosyadan fotoğraf okuma
 - OpenCV ile işlenen fotoğrafı dosyaya kaydetme
 - OpenCV ile dosyadan video okuma
