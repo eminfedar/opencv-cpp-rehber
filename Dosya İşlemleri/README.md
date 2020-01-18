@@ -142,3 +142,10 @@ while ( video.read(kare) )
     videoWriter.write(kare);
 }
 ```
+
+## 5. Örnek projeler
+- ### [/Dosya İşlemleri/Fotoğraf/](https://github.com/eminfedar/opencv-ornekler/tree/master/Dosya%20%C4%B0%C5%9Flemleri/Foto%C4%9Fraf)
+- ### [/Dosya İşlemleri/Video Okuma/](https://github.com/eminfedar/opencv-ornekler/tree/master/Dosya%20%C4%B0%C5%9Flemleri/Video%20Kaydetme)
+- ### [/Dosya İşlemleri/Video Kaydetme/](https://github.com/eminfedar/opencv-ornekler/tree/master/Dosya%20%C4%B0%C5%9Flemleri/Video%20Okuma)
+
+*(Not: Klasörlerin içinde terminali açıp `make` komutunu çalıştırarak projeyi derleyebilirsiniz.)*

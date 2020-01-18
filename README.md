@@ -19,6 +19,7 @@ Her türlü hata bildirimi ve istek için [Issue](https://github.com/eminfedar/o
 - OpenCV ile işlenen fotoğrafı dosyaya kaydetme
 - OpenCV ile dosyadan video okuma
 - OpenCV ile işlenen videoyu dosyaya kaydetme
+- Örnek projeler
 
 ## [/ Kamera:](#)
 - OpenCV ile Kamerayı kullanarak fotoğraf çekme / kaydetme
