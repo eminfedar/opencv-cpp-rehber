@@ -9,7 +9,7 @@ Mat imread(const string& filename, int flags=1 )
 1. Parametre `filename` olarak ilk parametresi okunacak dosyanın tam yolu.
 
 2. Parametre `flags` ise okunacak imajın renk tipinin seçilmesi (Siyah beyaz olarak mı okunacak, renkli mi okunacak vs.)
-```
+```cpp
 CV_LOAD_IMAGE_UNCHANGED = -1
 // İmaj nasıl ise hiç değiştirmeden öyle oku.
 // Saydam kısımlara sahip fotoğraflar için bu bayrak kullanılmalı.
@@ -58,7 +58,7 @@ imwrite("./yeniDosya.png", fotograf);
 ```
 
 ## 3. OpenCV ile dosyadan video okuma
-OpenCV ile video kaydı tutmak için kullandığımız sınıf [VideoCapture](https://docs.opencv.org/2.4/modules/highgui/doc/reading_and_writing_images_and_video.html?highlight=imwrite#videocapture) sınıfıdır.
+OpenCV ile video kaydı okumak için kullandığımız sınıf [VideoCapture](https://docs.opencv.org/2.4/modules/highgui/doc/reading_and_writing_images_and_video.html?highlight=imwrite#videocapture) sınıfıdır.
 
 **VideoCapture** sınıfının üç tane yapıcı fonksiyonu (Constructor) vardır:
 ```cpp
@@ -67,7 +67,7 @@ VideoCapture(const string& filename) // Dosyadan video okumak için
 VideoCapture(int device) // Kameradan video okumak için
 ```
 
-Bu yapıcı fonksiyonları kullanarak aşağıdaki şekilde dosyadan video dosyasını açabiliriz:
+Bu yapıcı fonksiyonları kullanarak video dosyasını açabiliriz:
 ```cpp
 #include "opencv2/core/core.hpp"
 #include "opencv2/highgui/highgui.hpp" // VideoCapture
@@ -78,7 +78,7 @@ VideoCapture videomuz("./videoDosyasi.mp4");
 if ( !videomuz.isOpened() )
     return -1; // Video verisi okunamadı
 ```
-Veya [VideoCapture.open()](https://docs.opencv.org/2.4/modules/highgui/doc/reading_and_writing_images_and_video.html#videocapture-open) metodu ile okuyabiliriz:
+Veya [VideoCapture.open()](https://docs.opencv.org/2.4/modules/highgui/doc/reading_and_writing_images_and_video.html#videocapture-open) metodunu da kullanabiliriz:
 ```cpp
 VideoCapture videomuz;
 videomuz.open("./videoDosyasi.mp4");
@@ -95,17 +95,9 @@ if ( !videomuz.isOpened() )
     return -1; // Video verisi okunamadı
 
 
-while (true)
+Mat karemiz;
+while ( videomuz.read(karemiz) )
 {
-    // videomuz nesnesinden bir kare okuyup 'karemiz' matrisine yazdık.
-    Mat karemiz;
-    videomuz >> karemiz;
-
-    if (karemiz.empty())
-        break; // Okunacak kare kalmadı. Döngüyü kır.
-
-
-
     // Ekranda gösterelim:
     imshow("Video Karesi:", karemiz);
 
@@ -143,15 +135,9 @@ VideoWriter videoWriter("./yeniVideo.mp4", CV_FOURCC('m','p','4','v'), 25, Size(
 if ( !videoWriter.isOpened() )
     return -1; // Dosya oluşturulamadı veya bir hata oluştu.
 
-
-while (true)
+Mat karemiz;
+while ( videomuz.read(karemiz) )
 {
-    Mat karemiz;
-    videomuz >> karemiz;
-
-    if (karemiz.empty())
-        break;
-
     // Okunan kareyi yeni dosyaya yaz:
     videoWriter.write(karemiz);
 }
