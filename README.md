@@ -8,7 +8,7 @@ Her türlü hata bildirimi ve istek için [Issue](https://github.com/eminfedar/o
 
 *(Not: Uygulamalar **Pardus, Ubuntu** gibi **GNU/Linux** sistemlerde  ile derlenmek üzere hazırlanmıştır.)*
 
-## [/ Temel:](https://github.com/eminfedar/opencv-ornekler/temel)
+## [/ Temel:](https://github.com/eminfedar/opencv-ornekler/tree/master/Temel)
 - OpenCV kütüphanesinin kurulumu
 - OpenCV kütüphanesinin genel kullanımı
 - OpenCV kütüphanesinin projeye eklenmesi (dinamik kütüphane bağlantısı)
