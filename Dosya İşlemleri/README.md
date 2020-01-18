@@ -108,8 +108,13 @@ while (true)
 
     // Ekranda gösterelim:
     imshow("Video Karesi:", karemiz);
+
+    waitKey(100); // 100ms bekliyoruz.
+    // Yaklaşık 10fpslik bir video gibi ekranda göreceğiz.
 }
 ```
+
+*(Not: Video okuma/yazma için gerekli olan `-lopencv_videoio` kütüphanesini projenizi `g++` ile derlerken eklemeyi unutmayın!)*
 
 ## 4. OpenCV ile işlenen videoyu dosyaya kaydetme
 Yukarıdaki şekilde okuduğumuz video karelerini [VideoWriter](https://docs.opencv.org/2.4/modules/highgui/doc/reading_and_writing_images_and_video.html#videowriter-videowriter) sınıfını kullanarak yeni bir dosyaya yazabiliriz:

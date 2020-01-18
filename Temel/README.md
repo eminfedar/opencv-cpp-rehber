@@ -24,7 +24,7 @@ Eklediğimiz kütüphane bize OpenCV'nin temel veri tiplerini ve fonksiyonları 
 Veri Tipleri:
 - [Mat](https://docs.opencv.org/2.4/modules/core/doc/basic_structures.html#mat) (2+ Boyutlu Matris) (Resim verisini tutacağımız değişken tipi)
 - [Vec](https://docs.opencv.org/2.4/modules/core/doc/basic_structures.html#vec) (1 Boyutlu Vektör, yani Dizi) (Resmin tek bir pikselinin verisini *(Mavi, Yeşil, Kırmızı)* tutacağımız değişken veri tipi.)
-- `Vec` bir taslak sınıftır. Genelde onun yerine `Vec3b` kullanırız. `Vec3b` aslında `Vec<uchar, 3>` demektir. Yani 8 bitlik 3 tane veri tutan bir vektör (yani dizi). Eğer 3 tane 8 bit değil de, 32 bit (yani int) tutmak isterseniz `Vec3i` veya `Vec<int, 3>` kullanabilirsiniz.
+- `Vec` bir taslak sınıftır. Genelde onun yerine `Vec3b` kullanırız.<br>`Vec3b` aslında `Vec<uchar, 3>` demektir. Yani 8 bitlik 3 tane veri tutan bir vektör (yani dizi).<br>Eğer 3 tane 8 bit değil de, 3 tane 32 bit (yani int) tutmak isterseniz `Vec3i` veya `Vec<int, 3>` kullanabilirsiniz.
 - ...
 
 Fonksiyonlar:
@@ -33,7 +33,7 @@ Fonksiyonlar:
 - [line()](https://docs.opencv.org/2.4/modules/core/doc/drawing_functions.html#line) (Resim üzerine çizgi çizme)
 - [putText()](https://docs.opencv.org/2.4/modules/core/doc/drawing_functions.html#puttext) (Resim üzerine yazı yazma)
 - [clone()](https://docs.opencv.org/2.4/modules/core/doc/basic_structures.html#mat-clone) (Resim matrisinin bir ayrı kopyasını oluşturma)
-- ..
+- ...
 
 ### Birkaç kod örneği verelim:
 ```cpp
