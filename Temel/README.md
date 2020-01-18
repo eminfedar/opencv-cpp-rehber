@@ -2,8 +2,6 @@
 
 *(Not: Uygulamalar **Pardus, Ubuntu** gibi **GNU/Linux** sistemlerde  ile derlenmek üzere hazırlanmıştır.)*
 
----
-
 ## 1. OpenCV kütüphanesinin kurulumu
 Debian tabanlı paket yöneticisi kullanan linux sistemler için (Pardus/Ubuntu/Debian/Kali vs.):
 ```bash
@@ -12,8 +10,6 @@ sudo apt install libopencv-dev
 Bu şekilde sisteminize dağıtımınızın depolarındaki OpenCV kütüphanesini yükleyebilir ve daha sonra uygulamalarınızda bu kütüphaneye bağımlı hale getirerek kullanabilirsiniz. 
 
 *(yani programınızın içine OpenCV'yi gömmek yerine kullanıcıdan bu kütüphaneyi sistemine kurmasını şart koşarak. Son kullanıcı geliştirici dosyalarını içeren `libopencv-dev` paketini değil, kütüphanenin kullanım için derlenmiş paketini kurmalıdır. (`libopencv-core3.2` gibi))*
-
----
 
 ## 2. OpenCV kütüphanesinin genel kullanımı
 OpenCV kütüphanesini C++ projemize basit bir include satırıyla ekleyebiliyoruz.
