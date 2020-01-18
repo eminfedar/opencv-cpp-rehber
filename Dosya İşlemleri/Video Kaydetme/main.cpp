@@ -7,24 +7,21 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-    VideoCapture videomuz("./ornek.mp4");
-    if (!videomuz.isOpened())
+    VideoCapture video("./ornek.mp4");
+    if (!video.isOpened())
         return -1;
 
     VideoWriter videoWriter("./yeniVideo.mp4", CV_FOURCC('m', 'p', '4', 'v'), 25, Size(326, 172));
     if (!videoWriter.isOpened())
         return -1;
 
-    while (true)
+
+
+    Mat kare;
+    while ( video.read(kare) )
     {
-        Mat karemiz;
-        videomuz >> karemiz;
-
-        if (karemiz.empty())
-            break;
-
         // Okunan kareyi yeni dosyaya yaz:
-        videoWriter.write(karemiz);
+        videoWriter.write(kare);
     }
 
     return 0;

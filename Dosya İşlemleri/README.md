@@ -126,19 +126,19 @@ VideoWriter::VideoWriter(const string& filename, int fourcc, double fps, Size fr
 #include "opencv2/core/core.hpp"
 #include "opencv2/highgui/highgui.hpp" // VideoCapture, VideoWriter
 
-
-VideoCapture videomuz("./videoDosyasi.mp4");
-if ( !videomuz.isOpened() )
+VideoCapture video("./videoDosyasi.mp4");
+if ( !video.isOpened() )
     return -1;
 
 VideoWriter videoWriter("./yeniVideo.mp4", CV_FOURCC('m','p','4','v'), 25, Size(1280,720));
 if ( !videoWriter.isOpened() )
     return -1; // Dosya oluşturulamadı veya bir hata oluştu.
 
-Mat karemiz;
-while ( videomuz.read(karemiz) )
+
+Mat kare;
+while ( video.read(kare) )
 {
     // Okunan kareyi yeni dosyaya yaz:
-    videoWriter.write(karemiz);
+    videoWriter.write(kare);
 }
 ```
