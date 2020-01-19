@@ -129,7 +129,7 @@ g++ main.cpp -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_videosta
 ```
 
 ## 4. Örnek boş proje
-[/ Temel / Boş Proje / main.cpp](#) :
+[/ Temel / Boş Proje /](https://github.com/eminfedar/opencv-ornekler/tree/master/Temel/Bo%C5%9F%20Proje) main.cpp :
 ```cpp
 #include "opencv2/core/core.hpp"
 #include <iostream>
