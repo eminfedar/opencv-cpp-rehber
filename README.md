@@ -3,10 +3,10 @@ Hoşgeldiniz.
 
 <img src="https://raw.githubusercontent.com/wiki/opencv/opencv/images/OpenCV_Logo_with_text.png" width="128">
 
-Bu repoda C++ diliyle geliştirilmiş OpenCV uygulamaları basit örnekler şeklinde sunulmaktadır.
-Her türlü hata bildirimi ve istek için [Issue](https://github.com/eminfedar/opencv-ornekler/issues), yeni örnekler eklemek ve katkıda bulunmak için [Pull Request](https://github.com/eminfedar/opencv-ornekler/pulls) açabilirsiniz.
+Bu repoda C++ diliyle geliştirilmiş OpenCV uygulamaları kolayca derlenebilir basit örnekler ve beraberinde konu anlatımıyla birlikte bulunmaktadır.
+Her türlü hata bildirimi ve istek için [Issue](https://github.com/eminfedar/opencv-ornekler/issues), yeni örnekler eklemek veya katkıda bulunmak için [Pull Request](https://github.com/eminfedar/opencv-ornekler/pulls) açabilirsiniz.
 
-*(Not: Uygulamalar **Pardus, Ubuntu** gibi **GNU/Linux** sistemlerde  ile derlenmek üzere hazırlanmıştır.)*
+*(Not: Uygulamalar **Pardus, Ubuntu** gibi **GNU/Linux** sistemlerde derlenmek üzere hazırlanmıştır. Windows için de kodlar aynıdır, fakat kütüphanenin kurulumu ve derleme süreci farklılık gösterebilir.)*
 
 ## [/ Temel:](https://github.com/eminfedar/opencv-ornekler/tree/master/Temel)
 - OpenCV kütüphanesinin kurulumu
@@ -22,8 +22,8 @@ Her türlü hata bildirimi ve istek için [Issue](https://github.com/eminfedar/o
 - Örnek projeler
 
 ## [/ Kamera:](#)
-- OpenCV ile Kamerayı kullanarak fotoğraf çekme / kaydetme
-- OpenCV ile Kamerayı kullanarak video çekme / kaydetme
+- OpenCV ile kamerayı kullanarak fotoğraf çekme / kaydetme
+- OpenCV ile kamerayı kullanarak video çekme / kaydetme
 
 ## [/ Çizim:](#)
 - OpenCV ile resme çizgi çizme
