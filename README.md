@@ -21,9 +21,10 @@ Her türlü hata bildirimi ve istek için [Issue](https://github.com/eminfedar/o
 - OpenCV ile işlenen videoyu dosyaya kaydetme
 - Örnek projeler
 
-## [/ Kamera:](#)
+## [/ Kamera:](https://github.com/eminfedar/opencv-ornekler/tree/master/Kamera)
 - OpenCV ile kamerayı kullanarak fotoğraf çekme / kaydetme
 - OpenCV ile kamerayı kullanarak video çekme / kaydetme
+- Örnek projeler
 
 ## [/ Çizim:](#)
 - OpenCV ile resme çizgi çizme
