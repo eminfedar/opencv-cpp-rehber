@@ -1,7 +1,4 @@
 # / Temel
-
-*(Not: Uygulamalar **Pardus, Ubuntu** gibi **GNU/Linux** sistemlerde  ile derlenmek üzere hazırlanmıştır.)*
-
 ## 1. OpenCV kütüphanesinin kurulumu
 Debian tabanlı paket yöneticisi kullanan linux sistemler için (Pardus/Ubuntu/Debian/Kali vs.):
 ```bash
