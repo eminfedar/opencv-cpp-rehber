@@ -8,20 +8,20 @@ Her türlü hata bildirimi ve istek için [Issue](https://github.com/eminfedar/o
 
 *(Not: Uygulamalar **Pardus, Ubuntu** gibi **GNU/Linux** sistemlerde derlenmek üzere hazırlanmıştır. Windows için de kodlar aynıdır, fakat kütüphanenin kurulumu ve derleme süreci farklılık gösterebilir.)*
 
-## [/ Temel:](https://github.com/eminfedar/opencv-ornekler/tree/master/Temel)
+## [/ Temel:](https://github.com/eminfedar/opencv-cpp-rehber/tree/master/Temel)
 - OpenCV kütüphanesinin kurulumu
 - OpenCV kütüphanesinin genel kullanımı
 - OpenCV kütüphanesinin projeye eklenmesi (dinamik kütüphane bağlantısı)
 - Örnek boş proje
 
-## [/ Dosya işlemleri:](https://github.com/eminfedar/opencv-ornekler/tree/master/Dosya%20%C4%B0%C5%9Flemleri)
+## [/ Dosya işlemleri:](https://github.com/eminfedar/opencv-cpp-rehber/tree/master/Dosya%20%C4%B0%C5%9Flemleri)
 - OpenCV ile dosyadan fotoğraf okuma
 - OpenCV ile işlenen fotoğrafı dosyaya kaydetme
 - OpenCV ile dosyadan video okuma
 - OpenCV ile işlenen videoyu dosyaya kaydetme
 - Örnek projeler
 
-## [/ Kamera:](https://github.com/eminfedar/opencv-ornekler/tree/master/Kamera)
+## [/ Kamera:](https://github.com/eminfedar/opencv-cpp-rehber/tree/master/Kamera)
 - OpenCV ile kamerayı kullanarak fotoğraf çekme / kaydetme
 - OpenCV ile kamerayı kullanarak video çekme / kaydetme
 - Örnek projeler
